@@ -1,0 +1,1119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Veerashri Event Planners - Creating unforgettable experiences with elegance and precision. Specializing in weddings, corporate events, and special occasions." />
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743814694/v_logo_white-removebg-preview_luxml7.png">
+    <title>VEERASHRI EVENT PLANNERS</title>
+
+    <!-- Faicon image-->
+    <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!--java script-->
+    <!-- JavaScript loaded at end of body to avoid duplicate execution -->
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'style3.css' %}" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header-section">
+      <div
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
+      <div class="d-flex align-items-center">
+        <a href="#home" class="d-flex align-items-center text-decoration-none">
+          <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743814694/v_logo_white-removebg-preview_luxml7.png"
+               alt="Veerashri Logo"
+               class="logo me-2"
+               style="height: 100px;" />
+          <h1 class="mb-0 text-white fs-4">Veerashri Event Planners</h1>
+        </a>
+        </div>
+        <div class="ms-auto">
+          <a href="#contactForm" class="btn btn-book btn-lg me-2">Book your slot</a>
+      </div>
+      </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">GALLERY</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#team">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+      <section id="home" class="hero-section" role="banner" aria-label="Hero Section">
+  <div class="video-background">
+    <video class="bg-video active" autoplay loop muted playsinline preload="auto" poster="fallback.jpg">
+      <source src="https://res.cloudinary.com/dmgrtwca6/video/upload/v1744433404/WhatsApp_Video_2025-04-12_at_09.45.53_0a22bca5_hqjawf.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="hero-content">
+    <h1>"Where Your Vision Meets Reality"</h1>
+    <p class="lead">
+      We don't just organize events—we create unforgettable experiences.
+    </p>
+    <div class="hero-buttons">
+      <a href="#services" class="btn btn-primary btn-lg me-2">Explore Services</a>
+      <a href="#contact" class="btn btn-contact btn-lg me-2">CONTACT US</a>
+    </div>
+  </div>
+</section>
+        
+<br>
+<br>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h2>ABOUT US</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718661/6247d384-66f1-49de-bf19-c9490a9d8ae4_ffukjj.jpg"
+              alt="About Veerashri Event Planners"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <h3>
+              "Bringing Elegance, Creativity, and Perfection to Every Event"
+            </h3>
+            <p>
+              We believe that every occasion is unique and deserves to be
+              celebrated in the most spectacular way. With a keen eye for detail
+              and a passion for creativity, we specialize in curating bespoke
+              events that capture the essence of your vision.
+            </p>
+            <p>
+              From conceptualization to execution, our team of seasoned
+              professionals ensures that every aspect of your event is handled
+              with precision and elegance. Whether it's a luxurious wedding, a
+              sophisticated corporate event, or an intimate gathering, we bring
+              innovation, excellence, and an unwavering commitment to
+              perfection.
+            </p>
+            <button class="btn btn-outline-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us py-5 bg-light">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2>WHY CHOOSE US</h2>
+          <div class="divider"></div>
+          <p class="lead">
+            We go above and beyond to make your event extraordinary
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="zoom-in">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h3>Personalized Planning</h3>
+              <p>Every event is crafted to match your style and personality.</p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3>Innovative Designs</h3>
+              <p>
+                From classic elegance to modern chic, we create breathtaking
+                setups.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <h3>Stress-Free Execution</h3>
+              <p>Leave the planning to us while you enjoy your special day.</p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>Attention to Detail</h3>
+              <p>Because perfection is in the little things.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section py-5">
+          <div class="container">
+            <div class="section-header text-center mb-5">
+              <h2>OUR SERVICES</h2>
+              <div class="divider"></div>
+              <p class="lead">Check out our works!!!</p>
+            </div>
+    
+            <div
+              id="servicesCarousel"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="7"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="8"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="9"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="10"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#servicesCarousel"
+                  data-bs-slide-to="11"
+                ></button>
+              </div>
+    
+              <div class="carousel-inner">
+                <!-- Service 1 -->
+                <div class="carousel-item active">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718087/how-much-does-event-setup-cost-hero-image_higyak.jpg"
+                      class="rounded img-fluid mb-4" alt="Event Planning and Production" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>EVENT PLANNING AND PRODUCTION</h3>
+                      <p>
+                        Meticulous planning, flawless execution, and innovative ideas—that's our promise.
+                        From brainstorming unique concepts to coordinating vendors and managing timelines,
+                        we ensure a stress-free and stunning event from start to finish.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Service 2 -->
+                <div class="carousel-item">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718456/8b90e68d-aaf1-4b7c-8251-48493ba7e7c7_xtnvgu.jpg"
+                      class="rounded img-fluid mb-4" alt="Design and decor" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>DESIGN AND DECOR</h3>
+                      <p>
+                        Transform your venue into a breathtaking masterpiece with
+                        our exquisite décor and creative designs. Whether it's an
+                        intimate birthday party or a grand wedding, we bring magic
+                        to every corner with elegant themes, mesmerizing florals,
+                        and stunning aesthetics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Service 3 -->
+                <div class="carousel-item">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719589/11-500x500_uzexbb.webp"
+                      class="rounded img-fluid mb-4" alt="On Site Management" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>ON SITE MANAGEMENT</h3>
+                      <p>
+                        Enjoy your event without stress while we take care of
+                        everything behind the scenes. Our team ensures flawless
+                        coordination, troubleshooting, and execution so you can
+                        focus on making memories.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+    
+                <!-- Service 4 -->
+                <div class="carousel-item">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718985/events_photography_2_z7zdup.jpg"
+                      class="rounded img-fluid mb-4" alt="Photography" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>PHOTOGRAPHY AND VIDEOGRAPHY</h3>
+                      <p>
+                        Capture the magic of your moments with high-quality
+                        photography and cinematic videography. From candid
+                        emotions to artistic storytelling, we create timeless
+                        memories that you can cherish forever.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Service 5 -->
+                <div class="carousel-item">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718820/183668_103785_cozr0u.webp"
+                      class="rounded img-fluid mb-4" alt="Makeup Artist" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>MAKE UP ARTIST</h3>
+                      <p>
+                        Step into the spotlight with confidence! Our professional
+                        makeup artists specialize in bridal, party, and
+                        high-fashion makeup, ensuring you look radiant and
+                        flawless for your special occasion.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- Service 6 -->
+                <div class="carousel-item">
+                  <div class="d-flex flex-column align-items-center text-center">
+                    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719273/istockphoto-650655146-612x612_abfohs.jpg"
+                      class="rounded img-fluid mb-4" alt="Catering" style="max-width: 600px;">
+                    <div class="service-details px-3" style="max-width: 800px;">
+                      <h3>CATERING</h3>
+                      <p>
+                        Our catering services bring exquisite flavors and
+                        customized menus to elevate your event, ensuring a
+                        delightful culinary experience. From gourmet dishes to
+                        live food stations, we serve perfection with impeccable
+                        presentation and quality.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+ 
+               <!-- Service 7 -->
+               <div class="carousel-item">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/ddf761e0-744b-40dc-9789-cf75846cf491_psdrnu.jpg"
+                    class="rounded img-fluid mb-4" alt="Venue Management" style="max-width: 600px;">
+                  <div class="service-details px-3" style="max-width: 800px;">
+                    <h3>VENUE MANAGEMENT</h3>
+                    <p>
+                      Finding the perfect venue is just as important as the event itself.
+                      We assist with venue selection, negotiations, and complete management, 
+                      ensuring a hassle-free and seamless experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+             <!-- Service 8 -->
+             <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/shutterstock_1123557119_koes4n.webp"
+                  class="rounded img-fluid mb-4" alt="Fashion Designer" style="max-width: 600px;">
+                <div class="service-details px-3" style="max-width: 800px;">
+                  <h3>FASHION DESIGNER</h3>
+                  <p>
+                    Step out in style with custom-designed outfits tailored for your big day. 
+                    Whether it's a wedding ensemble, themed costumes, or high-fashion looks, 
+                    our designers create outfits that reflect elegance and sophistication..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           <!-- Service 9 -->
+           <div class="carousel-item">
+  <div class="d-flex flex-column align-items-center text-center">
+    <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/Locate-Your-Events-Purpose_xfhkpe.jpg"
+      class="rounded img-fluid mb-4" alt="Corporate Events" style="max-width: 600px;">
+    <div class="service-details px-3" style="max-width: 800px;">
+      <h3>CORPORATE EVENTS</h3>
+      <p>
+        Seamless execution, professional planning, and engaging experiences—our 
+        corporate event solutions cater to businesses, schools, and colleges. 
+        Whether it's a product launch, an annual conference, or a cultural fest,
+        we ensure everything runs smoothly and leaves a lasting impact.
+      </p>
+      </p>
+    </div>
+  </div>
+</div>
+
+         <!-- Service 10 -->
+         <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719151/21ec51d3-33ae-4a56-bb8c-32e0d929598b_ofuvlc.jpg"
+              class="rounded img-fluid mb-4" alt="Gifting Studio" style="max-width: 600px;">
+            <div class="service-details px-3" style="max-width: 800px;">
+              <h3>GIFTING STUDIO</h3>
+              <p>
+                Celebrate life's special moments with our premium gifting services. 
+                From personalized keepsakes to exquisite hampers, we curate thoughtful
+                gifts that add an extra touch of elegance and charm.
+              </p>
+            </div>
+          </div>
+        </div>
+
+       <!-- Service 11 -->
+       <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center text-center">
+          <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719272/360_F_106476142_zMZkkTkhMeq0DIjV20oJI00e3QXLYIGN_gykbrb.jpg"
+            class="rounded img-fluid mb-4" alt="Musicians" style="max-width: 600px;">
+          <div class="service-details px-3" style="max-width: 800px;">
+            <h3>MUSICIANS</h3>
+            <p>
+              Set the perfect mood for your event with live music and top-tier entertainment.
+              From soulful instrumentalists to energetic bands, 
+              we bring you the best artists to elevate your celebration.
+            </p>
+          </div>
+        </div>
+      </div>
+
+     <!-- Service 12 -->
+     <div class="carousel-item">
+      <div class="d-flex flex-column align-items-center text-center">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719272/360_F_100295281_NWi0jFNVOa1boXAkXNVTKZvXpluQXj7l_r6pibd.jpg"
+          class="rounded img-fluid mb-4" alt="Event Planning" style="max-width: 600px;">
+        <div class="service-details px-3" style="max-width: 800px;">
+          <h3>CHOREOGRAPHERS</h3>
+          <p>
+            Make your celebrations unforgettable with breathtaking dance performances. 
+            Whether it's a sangeet, corporate event, or special occasion, our expert 
+            choreographers design stunning routines to suit every vibe.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#servicesCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#servicesCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+
+             <!-- Explore Services Button -->
+  <button class="btn btn-primary btn-lg me-2" onclick="togglePanel()">Explore Services</button>
+
+  <!-- Side Panel -->
+  <div class="side-panel" id="sidePanel">
+    <div class="side-panel-header">
+      <h2>All Services</h2>
+      <button class="btn btn-primary btn-lg me-2" onclick="togglePanel()">Close</button>
+    </div>
+    <div class="menu-list">
+      <!-- Sample Menu Items -->
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718087/how-much-does-event-setup-cost-hero-image_higyak.jpg" alt="Event Planning">
+        <span>Event Planning </span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718456/8b90e68d-aaf1-4b7c-8251-48493ba7e7c7_xtnvgu.jpg" alt="Decor">
+        <span>Design & Decor</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719589/11-500x500_uzexbb.webp" alt="On Site">
+        <span>On Site Management</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718985/events_photography_2_z7zdup.jpg" alt="Photography">
+        <span>Photography</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742718820/183668_103785_cozr0u.webp" alt="Makeup">
+        <span>Makeup</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719273/istockphoto-650655146-612x612_abfohs.jpg" alt="Catering">
+        <span>Catering</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/ddf761e0-744b-40dc-9789-cf75846cf491_psdrnu.jpg" alt="Venue">
+        <span>Venue Management</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/shutterstock_1123557119_koes4n.webp" alt="Fashion">
+        <span>Fashion</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719810/Locate-Your-Events-Purpose_xfhkpe.jpg" alt="Corporate">
+        <span>Corporate</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719151/21ec51d3-33ae-4a56-bb8c-32e0d929598b_ofuvlc.jpg" alt="Gifting">
+        <span>Gifting</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719272/360_F_106476142_zMZkkTkhMeq0DIjV20oJI00e3QXLYIGN_gykbrb.jpg" alt="Musicians">
+        <span>Musicians</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1742719272/360_F_100295281_NWi0jFNVOa1boXAkXNVTKZvXpluQXj7l_r6pibd.jpg" alt="Choreographers">
+        <span>Choreographers</span>
+      </div>
+    </div>
+  </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section py-5">
+          <div class="max-w-7xl mx-auto text-center">
+            <div class="container">
+              <div class="section-header text-center mb-5">
+                <h2>GALLERY</h2>
+                <div class="divider"></div>
+                <p class="lead">Event Highlights</p>
+              </div>
+
+          <div class="gallery-grid">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/IMG-20250127-WA0001_ttxbcj.jpg" alt="Gallery Image 1">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/IMG-20240527-WA0022_aybaoy.jpg" alt="Gallery Image 2">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783488/IMG-20230422-WA0024_ppfvwg.jpg" alt="Gallery Image 3">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783488/Screenshot_2024_0503_173315_m9c1h5.jpg" alt="Gallery Image 4">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/444a3c45-4825-48c6-ae94-a9c96eb63c71_i54ka7.jpg" alt="Gallery Image 5">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/IMG-20250316-WA0001_ybfyzu.jpg" alt="Gallery Image 6">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/IMG-20230324-WA0047_f9anij.jpg" alt="Gallery Image 7">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783489/IMG-20240910-WA0009_1_lsq6uf.jpg" alt="Gallery Image 8">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743783927/_DSC9392_4_1_emcpin.jpg" alt="Gallery Image 9">
+            <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743869887/IMG-20240527-WA0020_hjin5f.jpg" alt="Gallery Image 10">
+          </div>
+          </div>
+          <br>
+          <a href="https://drive.google.com/drive/folders/1ehx3Zv5gEUM7r0xNsi0Cv_TP_Byy7gmy?usp=sharing" target="_blank">
+            <button class="btn btn-primary btn-lg me-2">View Gallery</button>
+          </a>
+          </div>
+        </section>
+      
+
+
+    <!-- Team Section -->
+    <section id="team" class="team-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-header text-center mb-5">
+            <h2>Meet Our Team</h2>
+            <div class="divider"></div>
+            <p class="lead"> The passionate professionals behind every perfect event</p>
+          </div>
+
+        <div class="row justify-content-center">
+      
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="team-card">
+              <div class="team-img">
+                <img
+                  src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743858650/image-1000x1000_gj9uxj.png"
+                  alt="Rajeshwari Chowdry"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Rajeshwari Chowdry</h4>
+                <p>Founder & Creative Director</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/share/18d46K5a8j/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/rajeshwari.chowdry?igsh=dW8zZTJwODhtcmNv"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/veerashri-event-planners-355846293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="team-card">
+              <div class="team-img">
+                <img
+                  src="https://res.cloudinary.com/dmgrtwca6/image/upload/c_crop,w_500,h_500,g_auto/v1743858844/WhatsApp_Image_2025-04-05_at_6.43.18_PM_pwofb2.jpg"
+                  alt="Vishrutha"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Vishrutha</h4>
+                <p>Co-Founder & Operations Head</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/share/1Lb9tjXdVq/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/vishrutha_venkataswamy?igsh=MTF6NTJ0bjdmODRycw=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/vishrutha-venkataswamy-b0a247215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="team-card">
+              <div class="team-img">
+                <img
+                  src="https://res.cloudinary.com/dmgrtwca6/image/upload/c_crop,w_250,h_280,g_auto/v1743859372/image-1000x1500_1_pg1o0w.png"
+                  alt="Venkataswamy J.R"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Venkataswamy J.R</h4>
+                <p>Business Development Consultant</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/share/16NXMYCeEV/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/venkataswamychowdry?igsh=MTNzdjNkcjdhcTV6"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/venkataswamy-chowdry-9646324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="team-card">
+              <div class="team-img">
+                <img
+                  src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1743858650/image-1000x1000_1_gk3zee.png"
+                  alt="Gayathri P.V"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Gayathri P.V</h4>
+                <p>Marketing Assistant</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/share/1AWSYWgN8L/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/gayathri_pv_2001?igsh=MTR3ZzVzNDAyaXo1"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/veerashri-event-planners-355846293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div
+            class="col-md-6 col-lg-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="team-card">
+              <div class="team-img">
+                <img
+                  src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1744394804/image-1000x1500_4_d3xd1x_u3nbmc.png"
+                  alt="Amarnath G.V"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="team-info">
+                <h4>Amarnath G.V</h4>
+                <p>Editor & Content Specialist</p>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/share/1DZJWYGPdb/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/amarnathgv?igsh=MXN2M2VraDlmb3A1cA=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/amarnath-gv-a055ab319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+         
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <div class="section-header text-center mb-5">
+      <h2>CLIENT TESTIMONIALS</h2>
+      <div class="divider"></div>
+      <p class="lead">What our clients say about us</p>
+    </div>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5">
+        <div class="container">
+
+  
+          <div
+            id="testimonialCarousel"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"  data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-card">
+                  <p>
+                    "We worked with Veerashri Event Planners for decorating the naming ceremony venue. 
+                    I highly recommend them if you are looking to elevate your venue with beautiful and custom decor."
+                  </p>
+                  <div class="client-info">
+                    <h5> Pooja Hegde</h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <p>
+                    "Very good service and they manage time...and according to the 
+                    function they will do the service for the affordable prices....❣️❤️."
+                  </p>
+                  <div class="client-info">
+                    <h5>Sanjana Raj</h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <p>
+                  "I would recommend Vishrutha & Rajeshwari (Veerashri Event Planners) for 
+                  any event planning and decor! Such a supportive and understanding team of 
+                  daughter and mom duo and also reasonably priced."
+                </p>
+                <div class="client-info">
+                  <h5> Koushik Nataraj</h5>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <p>
+                "Really very beautiful decoration experience from Veerashri Decor. 
+                And very humble and very supportive and reasonable. You can expect 
+                a beautiful outcome at the end".
+              </p>
+              <div class="client-info">
+                <h5>Arpitha</h5>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="carousel-item">
+          <div class="testimonial-card">
+            <p>
+              "Very happy..😊😊 I would highly recommend Vishrutha (Veerashri Event Planners) 
+              for any event planning and decors!! Such a supportive and understanding team. 
+              Reasonable priced and such a innovative event organizer. The entire party hall was 
+              covered with decor and elegance.. 👌🙂✨Great team work..👏🙂".
+            </p>
+            <div class="client-info">
+              <h5>Prathap Rao</h5>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="carousel-item">
+        <div class="testimonial-card">
+          <p>
+            "Very good event planning by the team. Beautiful decoration for Haldi
+             and Mehandi. We had great event. Thanks to the team".
+          </p>
+          <div class="client-info">
+            <h5>Akshay Kumar</h5>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="carousel-item">
+      <div class="testimonial-card">
+        <p>
+          "The best birthday decor ever for my baby girl thanks to veerashri 
+          event planner keep rocking girl .........many more to come".
+        </p>
+        <div class="client-info">
+          <h5>Darshini.J.N</h5>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Clients-->
+      <section id="clients" class="clients-section py-5 bg-light">
+        <div class="container">
+          <div class="section-header text-center mb-5">
+            <h2>OUR CLIENTS</h2>
+            <div class="divider"></div>
+            <p class="lead">Trusted by leading brands and partners</p>
+          </div>
+          <div class="row justify-content-center align-items-center text-center">
+            <div class="col-6 col-md-3 mb-4">
+              <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1745987696/images_ufvmgq.png" alt="Client 1 Logo" class="img-fluid mb-2">
+              <h6>BIBA</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+              <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1745987695/bni-2020-logo-png_seeklogo-378515_lxdxvn.png" alt="Client 2 Logo" class="img-fluid mb-2">
+              <h6>BNI</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+              <img src="https://res.cloudinary.com/dmgrtwca6/image/upload/v1745987696/channels4_profile_meeq34.jpg" alt="Client 3 Logo" class="img-fluid mb-2">
+              <h6>Abharan Jewellers</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section py-5 bg-light">
+          <div class="container">
+            <div class="section-header text-center mb-5">
+              <h2>CONTACT US</h2>
+              <div class="divider"></div>
+              <p class="lead">Get in touch with us for your next event</p>
+            </div>
+    
+            <div class="row">
+              <div class="col-lg-6 mb-4" data-aos="fade-right">
+                <div class="contact-info">
+                  <h3>Contact Information</h3>
+                  <p>
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:veerashrieventplanners@gmail.com">
+                    veerashrieventplanners@gmail.com
+                    </a>
+
+                  </p>
+                  <p>
+                  <i class="fas fa-phone me-2"></i>
+                  +91 9591915156
+                  </p>                  
+                  <p><i class="fas fa-map-marker-alt me-2"></i> Bangalore, India</p>
+    
+                  <div class="social-media mt-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                      <a href="https://www.instagram.com/veerashri_event_planners?igsh=cm9jNnV6NGNwMnp3"
+                         target="_blank"
+                         class="me-3"
+                         aria-label="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://www.facebook.com/share/1EqFGVMPix/"
+                         target="_blank"
+                         class="me-3"
+                         aria-label="Follow us on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/veerashri-event-planners-355846293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                         target="_blank"
+                         class="me-3"
+                         aria-label="Follow us on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                      <a href="https://www.youtube.com/@VeerashriEventPlanners"
+                         target="_blank"
+                         class="me-3"
+                         aria-label="Subscribe to our YouTube channel">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                      <a href="https://wa.me/919591915156"
+                         target="_blank"
+                         aria-label="Contact us on WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <form id="contactForm" class="contact-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                  <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" name="message" placeholder="Your Message" required rows="4"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Send Message</button>
+              </form>
+
+           
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="footer py-4 bg-dark text-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Veerashri Event Planners</h5>
+                <p>
+                  Creating unforgettable experiences with elegance and precision.
+                </p>
+              </div>
+
+              <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-md-4">
+                <h5>Newsletter</h5>
+                <p>Subscribe to our newsletter for updates and offers.</p>
+                <form class="newsletter-form">
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                    />
+                    <button class="btn btn-primary btn-lg me-2" type="submit">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+          
+            <hr class="my-4" />
+    
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">
+                  &copy; 2025 Veerashri Event Planners. All rights reserved.
+                </p>
+                <div id="viewCounter">Viewed: 0 times</div>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <p class="mb-0">
+                  Designed with <i class="fas fa-heart text-danger"></i> by
+                  Veerashri Team
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <a href="#" class="back-to-top" id="backToTop"
+          ><i class="fas fa-arrow-up"></i
+        ></a>
+    
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- AOS Animation JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+        <!-- Custom JS -->
+        <script src="{% static 'script3.js' %}" defer></script>
+      </body>
+    </body>
+    </html>
