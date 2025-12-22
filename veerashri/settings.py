@@ -15,19 +15,17 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 # ======================
 # ALLOWED HOSTS
 # ======================
-ALLOWED_HOSTS = os.environ.get(
-    'ALLOWED_HOSTS',
-    '127.0.0.1,localhost,veerashrieventplanners.com,www.veerashrieventplanners.com,.railway.app,web-production-b74db.up.railway.app'
-).split(',')
+ALLOWED_HOSTS = [
+    "veerashrieventplanners.com",
+    "www.veerashrieventplanners.com",
+    "web-production-b74db.up.railway.app",
+    "127.0.0.1"
+]
 
-
-# ======================
-# CSRF
-# ======================
 CSRF_TRUSTED_ORIGINS = [
-    'http://web-production-b74db.up.railway.app',
-    'https://veerashrieventplanners.com',
-    'https://www.veerashrieventplanners.com',
+    "https://veerashrieventplanners.com",
+    "https://www.veerashrieventplanners.com",
+    "https://web-production-b74db.up.railway.app",
 ]
 
 
