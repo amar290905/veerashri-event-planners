@@ -26,15 +26,14 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 # ======================
-# SSL / SECURITY (ONLY IN PRODUCTION)
+# SSL / SECURITY (RAILWAY SAFE)
 # ======================
-if not DEBUG:
-    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-    SESSION_COOKIE_SECURE = True
-    CSRF_COOKIE_SECURE = True
-    SECURE_SSL_REDIRECT = True
-else:
-    SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
+SECURE_PROXY_SSL_HEADER = None
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
+USE_X_FORWARDED_HOST = False
+
 
 
 # ======================
@@ -55,7 +54,6 @@ INSTALLED_APPS = [
 # MIDDLEWARE
 # ======================
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
