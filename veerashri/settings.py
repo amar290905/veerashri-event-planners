@@ -16,18 +16,14 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 # ALLOWED HOSTS
 # ======================
 ALLOWED_HOSTS = [
-    "veerashrieventplanners.com",
     "www.veerashrieventplanners.com",
-    "web-production-b74db.up.railway.app",
-    "127.0.0.1"
+    ".up.railway.app",
+    "localhost",
+    "127.0.0.1",
 ]
-
 CSRF_TRUSTED_ORIGINS = [
-    "https://veerashrieventplanners.com",
     "https://www.veerashrieventplanners.com",
-    "https://web-production-b74db.up.railway.app",
 ]
-
 
 # ======================
 # SSL / SECURITY (ONLY IN PRODUCTION)
@@ -38,7 +34,7 @@ if not DEBUG:
     CSRF_COOKIE_SECURE = True
     SECURE_SSL_REDIRECT = True
 else:
-    SECURE_SSL_REDIRECT = False
+    SECURE_SSL_REDIRECT = True
 
 
 # ======================
