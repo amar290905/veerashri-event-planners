@@ -35,7 +35,6 @@ CSRF_COOKIE_SECURE = False
 USE_X_FORWARDED_HOST = False
 
 
-
 # ======================
 # APPLICATIONS
 # ======================
